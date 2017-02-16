@@ -755,7 +755,8 @@
           .last-block_wrap .last-block_flex-wrap__item:last-of-type .preload_item span.value {
             padding-bottom: 4px;
             font-size: 20px;
-            font-weight: 700; }
+            font-weight: 700;
+            cursor: pointer; }
             .last-block_wrap .last-block_flex-wrap__item:last-of-type .preload_item span.value::after {
               content: "%"; }
 
