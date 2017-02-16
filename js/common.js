@@ -10,4 +10,4 @@
 function percentOnClick() {
     var newPersentageValue = prompt("Введите новое значение", 100); 
     this.innerHTML = newPersentageValue;
-};
+}; 
