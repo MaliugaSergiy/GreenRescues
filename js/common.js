@@ -7,7 +7,12 @@
         
     }
 }());
+
+
 function percentOnClick() {
     var newPersentageValue = prompt("Введите новое значение", 100); 
     this.innerHTML = newPersentageValue;
+    window.getComputedStyle(this.previousSibling, '::after').getPropertyValue('height') = "25px";
 }; 
+
+console.log(document.querySelectorAll(".preload_item h4 "));
